@@ -18,3 +18,13 @@
 - BOM.csv angelegt (nur Teile mit echten JLC-Daten, Preise Stand 08.11.2026, 1-Stk.-Preis).
 - 3,3 V: TPS63001DRCR (Buck-Boost, C28060) statt LDO – User: "passt".
 - microSD: TF-01A (C91145/C2889258) bei JLC billig, aber KEIN Footprint in KiCad-10-Std-Lib → noch klären.
+
+## 08.11.2026: Stückliste Schaltplan (Beratung im Chat)
+- Datenblätter TI gelesen (pdftotext): BQ24074 KISET 890 AΩ, KILIM 1610 AΩ (0.5–1.5 A), RILIM min 1.1k,
+  TMR 18–72k (tMAXCHG=10×48 s/kΩ×R), TS 10k wenn kein NTC, EN2=1/EN1=0 → ILIM-Widerstand, CHG/PGOOD open-drain.
+  Pins: 1 TS, 2/3 BAT, 4 CE, 5 EN2, 6 EN1, 7 PGOOD, 8 VSS, 9 CHG, 10/11 OUT, 12 ILIM, 13 IN, 14 TMR, 15 ITERM, 16 ISET.
+- TPS63001: L 2.2 µH, Cin 10 µF, Cout 2×10 µF, VINA 100 Ω + 0.1 µF, FB→VOUT. Pins: 1 VOUT, 2 L2, 3 PGND,
+  4 L1, 5 VIN, 6 EN, 7 PS/SYNC, 8 VINA, 9 GND, 10 FB.
+- Gewählt: R3 887Ω 1% (1 A), R4 1.1k (1.46 A), R5 68k (~9 h), F1 1.5 A (wegen Ladestrom!). CH340C an 3,3 V.
+- microSD: Molex 104031-0811 (C585350, $0.68) – passt zu KiCad-Footprint.
+- OFFEN: MAX98357A SD_MODE-Widerstand (Datenblatt-Download blockiert), Ein/Aus-Schalter?

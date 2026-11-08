@@ -40,3 +40,10 @@
 - D1 LED rot, F1 1.5A, H1–H4, J1 USB-C, J2 microSD, J3 Akku, J4/J5 Lautsprecher L/R, L1 2.2uH, Q1/Q2,
   SW1–4 MX (⏮ ⏯ ⏭ Modus, DNP), SW5 RESET, SW6 BOOT, U1 ESP32, U2 CH340C, U3 BQ24074, U4 TPS63001,
   U5/U6 MAX98357A L/R, U7 USBLC6.
+
+## 08.11.2026: Zeit + PCB-Beratung
+- User meldet heute 3 h 18 min Arbeitszeit (laut User). Hinweis gegeben: nur Zeit für dieses Projekt loggen,
+  Eintrag ≤5 h, ≥1 eigenes Bild, Format "## TT.MM.JJJJ: Titel", Frontmatter-Felder. Text schreibt User selbst.
+- Netzliste nach Funktionsblöcken (1 USB … 9 Audio R) im Chat gegeben.
+- PCB-Vorschlag: 100×50 mm, 2 Lagen, Antenne an Kante mit Keepout, Ladeblock an J1, Bahnen ≥0,8 mm Strom.
+- OFFEN: Tasten vorne (A) oder oben (B)? SD_MODE/GAIN_SLOT MAX98357A, Ein/Aus-Schalter.

@@ -1,0 +1,47 @@
+# ---------- KiCad ----------
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.kicad_prl
+*.lck
+\#auto_saved_files#
+_autosave-*
+~*.lck
+fp-info-cache
+*.tmp
+# Zwischenausgaben aus KiCad (gerbers.zip selbst wird committet!)
+PCB/gerber/
+PCB/plot/
+PCB/*-backups.zip
+
+# ---------- PlatformIO / Firmware ----------
+firmware/.pio/
+firmware/.vscode/.browse.c_cpp.db*
+firmware/.vscode/c_cpp_properties.json
+firmware/.vscode/launch.json
+firmware/.vscode/ipch
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- CAD ----------
+*.FCStd1
+*.stl.tmp
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*~
+
+# ---------- Agent-/Tool-Arbeitsordner ----------
+.claude-flow/
+.swarm/

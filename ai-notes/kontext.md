@@ -66,3 +66,7 @@
   Alternative MCP73871T-2CCI/ML C511310 $2.13.
 - **Audio-Amp:** 2× MAX98357AETE+T, LCSC C910544, TQFN-16 3×3, $1.31, Extended. NICHT die BGA-Version C2682619.
 - JLC-Extended-Rüstgebühr ~$3 pro Teilenummer einrechnen.
+
+## Arbeitsweise Journal (08.11.2026)
+- User loggt nach jeder Sitzung direkt auf Fabricate; JOURNAL.md auf GitHub wird erst am Projektende geschrieben.
+  → Nicht ständig nach JOURNAL.md fragen. Hin und wieder an Screenshots erinnern.

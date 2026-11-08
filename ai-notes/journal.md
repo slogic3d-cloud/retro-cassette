@@ -10,3 +10,6 @@
 - Geschenk für Vater, Deadline Weihnachten → Zeitplan-Warnung gegeben.
 - Stereo-Lautsprecher, 4000 mAh (Parallel-Warnung), Power-Path-Lader erklärt.
 - Alte Repos: claude-workers lokale Kopie gelöscht; stream-deck ist Session-Startordner, nicht mehr anfassen.
+
+## 08.11.2026: JLC-Check Lader + Amp
+- JLC-API (selectSmtComponentList) abgefragt: BQ24074 gewählt, MAX98357A TQFN bestätigt. Echte LCSC-Nummern notiert.

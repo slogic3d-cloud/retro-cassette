@@ -58,3 +58,11 @@
 - **Laden:** Power-Path gewünscht (USB versorgt System, lädt nur wenn nötig, stoppt bei voll).
   Vorschlag BQ24074 oder MCP73871 – JLC-Verfügbarkeit/Preis noch prüfen.
 - **Tier:** am Ende.
+
+## Entscheidungen 08.11.2026 (Runde 3)
+- **Tasten:** ⏮ Zurück · ⏯ Play/Pause · ⏭ Weiter · Modus BT/SD. Lautstärke = lang drücken ⏮/⏭. (User: "super")
+- **Optik:** echte Deko-Kassette hinter Glas ODER gedruckte – User findet beides gut, Entscheidung beim CAD.
+- **Lader:** BQ24074RGTR, LCSC C54313, QFN-16 3×3, $2.12, Extended (JLC-API-Abfrage 08.11.).
+  Alternative MCP73871T-2CCI/ML C511310 $2.13.
+- **Audio-Amp:** 2× MAX98357AETE+T, LCSC C910544, TQFN-16 3×3, $1.31, Extended. NICHT die BGA-Version C2682619.
+- JLC-Extended-Rüstgebühr ~$3 pro Teilenummer einrechnen.

@@ -28,3 +28,15 @@
 - Gewählt: R3 887Ω 1% (1 A), R4 1.1k (1.46 A), R5 68k (~9 h), F1 1.5 A (wegen Ladestrom!). CH340C an 3,3 V.
 - microSD: Molex 104031-0811 (C585350, $0.68) – passt zu KiCad-Footprint.
 - OFFEN: MAX98357A SD_MODE-Widerstand (Datenblatt-Download blockiert), Ein/Aus-Schalter?
+
+## 08.11.2026: Ref-Nummern FINAL (nach Wert/Footprint gruppiert) – gilt für Pin-Liste!
+- C1–C3 10u 0805: U3 IN / OUT / BAT
+- C4–C9 10u 0603: U4 in / U4 out / U4 out / U1 3V3 / U5 VDD / U6 VDD
+- C10–C16 100n 0402: U4 VINA / U1 3V3 / U2 VCC / U5 VDD / U6 VDD / J2 / ADC
+- C17 1u 0402: U1 EN
+- R1–R11 10k: TS / PGOOD / EN / Q1-B / Q2-B / SD-CS / SD-MISO / SW1 / SW2 / SW3 / SW4
+- R12–R13 5.1k CC1/CC2 · R14–R15 100k Akku-Teiler · R16 887 ISET · R17 1.1k ILIM · R18 68k TMR
+- R19 1k D1 · R20 100 VINA · R21–R22 SD_MODE (offen)
+- D1 LED rot, F1 1.5A, H1–H4, J1 USB-C, J2 microSD, J3 Akku, J4/J5 Lautsprecher L/R, L1 2.2uH, Q1/Q2,
+  SW1–4 MX (⏮ ⏯ ⏭ Modus, DNP), SW5 RESET, SW6 BOOT, U1 ESP32, U2 CH340C, U3 BQ24074, U4 TPS63001,
+  U5/U6 MAX98357A L/R, U7 USBLC6.

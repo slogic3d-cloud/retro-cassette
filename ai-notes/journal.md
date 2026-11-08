@@ -13,3 +13,8 @@
 
 ## 08.11.2026: JLC-Check Lader + Amp
 - JLC-API (selectSmtComponentList) abgefragt: BQ24074 gewählt, MAX98357A TQFN bestätigt. Echte LCSC-Nummern notiert.
+
+## 08.11.2026: Repo-Start + BOM.csv
+- BOM.csv angelegt (nur Teile mit echten JLC-Daten, Preise Stand 08.11.2026, 1-Stk.-Preis).
+- 3,3 V: TPS63001DRCR (Buck-Boost, C28060) statt LDO – User: "passt".
+- microSD: TF-01A (C91145/C2889258) bei JLC billig, aber KEIN Footprint in KiCad-10-Std-Lib → noch klären.

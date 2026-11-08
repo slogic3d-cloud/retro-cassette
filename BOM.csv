@@ -1,0 +1,11 @@
+Ref,Teil,Wert,Footprint,Menge,LCSC,Link,Stueckpreis_USD,Versand,Notiz
+U1,ESP32-WROOM-32E-N8,ESP32-WROOM-32E-N8,RF_Module:ESP32-WROOM-32E,1,C701342,https://www.lcsc.com/product-detail/C701342.html,4.5662,JLC PCBA,Extended; Modul -> JLC Standard PCBA
+U2,CH340C,CH340C,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,1,C84681,https://www.lcsc.com/product-detail/C84681.html,0.5447,JLC PCBA,Extended; USB-Seriell zum Flashen
+U3,BQ24074RGTR,BQ24074RGTR,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,1,C54313,https://www.lcsc.com/product-detail/C54313.html,2.118,JLC PCBA,Extended; Lader mit Power-Path
+U4,TPS63001DRCR,TPS63001DRCR,Package_SON:Texas_DRC0010J_ThermalVias,1,C28060,https://www.lcsc.com/product-detail/C28060.html,1.6126,JLC PCBA,Extended; Buck-Boost 3.3 V
+U5,MAX98357AETE+T,MAX98357AETE+T,Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1,C910544,https://www.lcsc.com/product-detail/C910544.html,1.3084,JLC PCBA,Extended; Audio links
+U6,MAX98357AETE+T,MAX98357AETE+T,Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1,C910544,https://www.lcsc.com/product-detail/C910544.html,1.3084,JLC PCBA,Extended; Audio rechts
+U7,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,1,C2687116,https://www.lcsc.com/product-detail/C2687116.html,0.0478,JLC PCBA,Extended; ESD USB
+J1,USB-C 16P,TYPE-C-31-M-12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,C165948,https://www.lcsc.com/product-detail/C165948.html,0.1868,JLC PCBA,Extended
+Q1,MMBT3904,MMBT3904,Package_TO_SOT_SMD:SOT-23,1,C20526,https://www.lcsc.com/product-detail/C20526.html,0.0117,JLC PCBA,Basic; Auto-Reset
+Q2,MMBT3904,MMBT3904,Package_TO_SOT_SMD:SOT-23,1,C20526,https://www.lcsc.com/product-detail/C20526.html,0.0117,JLC PCBA,Basic; Auto-Reset

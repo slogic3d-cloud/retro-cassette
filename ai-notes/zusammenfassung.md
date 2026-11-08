@@ -1,12 +1,13 @@
 # Stand & offene Punkte
 
 ## Stand (08.11.2026)
+- ⏰ **Deadline Weihnachten 24.12.** → PCB bis ~Ende November bestellen.
 - Repo angelegt (leer) → Grundstruktur PCB/, CAD/, firmware/, ai-notes/, .gitignore.
 - Interview Runde 1 erledigt (siehe kontext.md).
 
 ## Offen – Entscheidungen des Users
-- [ ] Lautsprecher (Größe, Mono/Stereo), Akkugröße
-- [ ] Lade-IC mit Power-Path (Vorschläge machen, User entscheidet)
+- [x] Lautsprecher: Stereo 2× 40 mm + 2× MAX98357A. Akku 4000 mAh (2×2000 parallel oder 1×4000).
+- [ ] Lade-IC: BQ24074 vs. MCP73871 – ich prüfe JLC, dann Vorschlag
 - [ ] USB-UART-Chip fürs Flashen (z. B. CH340C) + Auto-Reset
 - [ ] Gehäuse/Rahmen-Aufbau, Kassetten-Optik
 - [ ] Tier/Budget

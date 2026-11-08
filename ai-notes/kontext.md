@@ -49,3 +49,12 @@
 - **Rahmengröße:** egal (Vorschlag 13×18 cm).
 - **Repo:** slogic3d-cloud/retro-cassette (noch anzulegen, add_repo schlug fehl am 08.11.).
 - Offen: Tier, Spulen-Motor/VU-LEDs (nicht gewählt), Flashen (ESP32 klassisch braucht USB-UART, z. B. CH340C).
+
+## Interview Runde 2 (08.11.2026)
+- **Zweck:** Weihnachtsgeschenk für den Vater → Deadline 24.12.2026! PCB-Bestellung bis ~Ende Nov nötig.
+- **Lautsprecher:** User überlässt mir die Wahl → Stereo 2× 40 mm 3 W 4 Ω + 2× MAX98357A (direkt an VSYS).
+- **Akku:** 4000 mAh, User will 2× 2000 mAh parallel (1S2P). Gewarnt: identische Zellen, gleich voll vor
+  Verbinden, nur mit PCM. Alternative 1× 4000 mAh mit PCM empfohlen. Entscheidung beim Bestellen.
+- **Laden:** Power-Path gewünscht (USB versorgt System, lädt nur wenn nötig, stoppt bei voll).
+  Vorschlag BQ24074 oder MCP73871 – JLC-Verfügbarkeit/Preis noch prüfen.
+- **Tier:** am Ende.

@@ -61,3 +61,10 @@
   (U4/3V3-Block vs. Rest), nur über Teil-Pads des ESP32-Masse-Pads verbunden.
 - Strompfade 0,5 mm ok. VSYS hat 42 mm in 0,2 mm (prüfen: nicht zu U5/U6). 3V3/Lautsprecher 0,2–0,3 (optional).
 - User will nur Pflicht-Fixes hören.
+
+## 09.11.2026: SD_MODE gelöst
+- Quelle: Adafruit MAX98357 Guide (pinouts): intern 100k Pull-down; <0,16 V aus, 0,16–0,77 (L+R)/2,
+  0,77–1,4 rechts, >1,4 links. GAIN offen = 9 dB (15 dB: 100k→GND, 12: GND, 6: Vin, 3: 100k→Vin).
+- Empfehlung: R21/R22 Pin 1 an +3V3 statt VSYS (VSYS 3,0–4,4 V zu variabel für Rechts-Fenster).
+- R22 (an U5;4) = 47k → ~2,2 V = links. R21 (an U6;4) = 220k → ~1,0 V = rechts. GAIN offen.
+- J4/J5-Werte tauschen (U5→J5 trägt "Lautspr_R").

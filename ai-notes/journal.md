@@ -54,3 +54,10 @@
   Vertauscht aber unkritisch: R21↔R22 (SD_MODE U6/U5), J4↔J5 (U5→J5, U6→J4) – nur Beschriftung.
 - PCB: 100×100 mm, 2 Lagen, 146 Vias 0,6/0,3. Probleme: keine GND-Fläche, Strombahnen zu dünn
   (VSYS/VBAT 0,2–0,3, VBUS 0,4, L1-Netze 0,2), Lader U3 ~60 mm von J1 entfernt. User mag Layout selbst nicht.
+
+## 09.11.2026: Review Version 2 (100×70 mm)
+- Netze ok bis auf: D1 weiterhin verpolt. Keine Zonen (keine GND-Fläche).
+- Verbindungs-Check (eigenes Skript tools/conn.py, Pads+Segmente+Vias): nur GND offen → 2 Inseln
+  (U4/3V3-Block vs. Rest), nur über Teil-Pads des ESP32-Masse-Pads verbunden.
+- Strompfade 0,5 mm ok. VSYS hat 42 mm in 0,2 mm (prüfen: nicht zu U5/U6). 3V3/Lautsprecher 0,2–0,3 (optional).
+- User will nur Pflicht-Fixes hören.

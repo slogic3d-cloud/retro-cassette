@@ -6113,16 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 171.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b9dc6c-6349-4703-b679-a9005b1da0ef")
-	)
-	(wire
-		(pts
 			(xy 299.72 26.67) (xy 302.26 26.67)
 		)
 		(stroke
@@ -7383,6 +7373,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 43.18) (xy 177.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc2df48-daf7-425a-982b-5148aef03eb2")
+	)
+	(wire
+		(pts
 			(xy 269.24 52.07) (xy 266.7 52.07)
 		)
 		(stroke
@@ -7590,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "c2e27e2a-6ee5-4799-945c-7b83cc81d8c8")
+	)
+	(wire
+		(pts
+			(xy 170.18 44.45) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c333e302-3a60-4ca8-aebf-483d790c851b")
 	)
 	(wire
 		(pts
@@ -7943,6 +7953,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 43.18) (xy 275.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ede978-eda2-4f93-89af-4759bd3fa3a2")
+	)
+	(wire
+		(pts
 			(xy 273.05 53.34) (xy 273.05 81.28)
 		)
 		(stroke
@@ -8000,16 +8020,6 @@
 			(type default)
 		)
 		(uuid "e1be60a7-10f0-491f-9c7f-f29325bd9875")
-	)
-	(wire
-		(pts
-			(xy 179.07 43.18) (xy 179.07 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e228f15a-2738-42af-9b73-dfbb149b4533")
 	)
 	(wire
 		(pts
@@ -8160,16 +8170,6 @@
 			(type default)
 		)
 		(uuid "f3e15fcc-61dc-45ec-b678-cc6b0d322fd9")
-	)
-	(wire
-		(pts
-			(xy 179.07 43.18) (xy 275.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4772132-5a31-42ec-9d01-e6fc7b2900ca")
 	)
 	(wire
 		(pts
@@ -11690,7 +11690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "onnector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 195.58 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14674,7 +14674,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 175.26 44.45 180)
+		(at 173.99 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14685,7 +14685,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5f145b7-58d1-4aba-a510-a3038635d807")
 		(property "Reference" "D1"
-			(at 176.8475 36.83 0)
+			(at 172.4025 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14695,7 +14695,7 @@
 			)
 		)
 		(property "Value" "LED_Rot"
-			(at 176.8475 39.37 0)
+			(at 172.4025 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14705,7 +14705,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 175.26 44.45 0)
+			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14716,7 +14716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 44.45 0)
+			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14727,7 +14727,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 175.26 44.45 0)
+			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14738,7 +14738,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 44.45 0)
+			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

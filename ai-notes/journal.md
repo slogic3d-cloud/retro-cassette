@@ -73,3 +73,4 @@
 - User meldet Gesamtzeit Hack Club gestern+heute: 7 h 18 min (laut User).
 - Neues Layout begonnen: 100×100, noch keine Vias, 36 Netze offen (WIP). Kein GND-Flächen-Plan (User will Leitungen, min. 0,45 mm).
 - R21 = 240k, R22 = 47k eingetragen (an VSYS) ✓. D1 IMMER NOCH verpolt (Pin 2/Anode an U3;9).
+- 09.11.: D1 im Schaltplan korrigiert (D1;1→U3;9, D1;2→R19;2), per tools/sch.py geprüft. PCB braucht F8.

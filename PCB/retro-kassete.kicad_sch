@@ -13342,7 +13342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "240k"
 			(at 238.76 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13424,7 +13424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47k"
 			(at 241.3 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14674,7 +14674,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 173.99 44.45 0)
+		(at 173.99 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14685,7 +14685,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5f145b7-58d1-4aba-a510-a3038635d807")
 		(property "Reference" "D1"
-			(at 172.4025 38.1 0)
+			(at 175.5775 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14695,7 +14695,7 @@
 			)
 		)
 		(property "Value" "LED_Rot"
-			(at 172.4025 40.64 0)
+			(at 175.5775 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

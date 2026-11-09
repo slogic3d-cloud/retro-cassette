@@ -68,3 +68,8 @@
 - Empfehlung: R21/R22 Pin 1 an +3V3 statt VSYS (VSYS 3,0–4,4 V zu variabel für Rechts-Fenster).
 - R22 (an U5;4) = 47k → ~2,2 V = links. R21 (an U6;4) = 220k → ~1,0 V = rechts. GAIN offen.
 - J4/J5-Werte tauschen (U5→J5 trägt "Lautspr_R").
+
+## 09.11.2026: PCB Neuanfang (Zwischenstand, 100×100 mm)
+- User meldet Gesamtzeit Hack Club gestern+heute: 7 h 18 min (laut User).
+- Neues Layout begonnen: 100×100, noch keine Vias, 36 Netze offen (WIP). Kein GND-Flächen-Plan (User will Leitungen, min. 0,45 mm).
+- R21 = 240k, R22 = 47k eingetragen (an VSYS) ✓. D1 IMMER NOCH verpolt (Pin 2/Anode an U3;9).

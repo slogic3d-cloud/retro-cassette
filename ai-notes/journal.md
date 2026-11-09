@@ -47,3 +47,10 @@
 - Netzliste nach Funktionsblöcken (1 USB … 9 Audio R) im Chat gegeben.
 - PCB-Vorschlag: 100×50 mm, 2 Lagen, Antenne an Kante mit Keepout, Ladeblock an J1, Bahnen ≥0,8 mm Strom.
 - OFFEN: Tasten vorne (A) oder oben (B)? SD_MODE/GAIN_SLOT MAX98357A, Ein/Aus-Schalter.
+
+## 09.11.2026: Erster Upload KiCad + Review
+- User-Dateien (pro/sch/pcb, KiCad 10) nach PCB/ hochgeladen. .kicad_prl bewusst nicht (gitignored).
+- Netz-Check (Pads der .kicad_pcb gegen Netzliste): alles korrekt AUSSER D1 verpolt (CHG an Anode, R19 an Kathode).
+  Vertauscht aber unkritisch: R21↔R22 (SD_MODE U6/U5), J4↔J5 (U5→J5, U6→J4) – nur Beschriftung.
+- PCB: 100×100 mm, 2 Lagen, 146 Vias 0,6/0,3. Probleme: keine GND-Fläche, Strombahnen zu dünn
+  (VSYS/VBAT 0,2–0,3, VBUS 0,4, L1-Netze 0,2), Lader U3 ~60 mm von J1 entfernt. User mag Layout selbst nicht.

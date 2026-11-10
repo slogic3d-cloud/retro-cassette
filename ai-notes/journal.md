@@ -74,3 +74,9 @@
 - Neues Layout begonnen: 100×100, noch keine Vias, 36 Netze offen (WIP). Kein GND-Flächen-Plan (User will Leitungen, min. 0,45 mm).
 - R21 = 240k, R22 = 47k eingetragen (an VSYS) ✓. D1 IMMER NOCH verpolt (Pin 2/Anode an U3;9).
 - 09.11.: D1 im Schaltplan korrigiert (D1;1→U3;9, D1;2→R19;2), per tools/sch.py geprüft. PCB braucht F8.
+
+## 10.11.2026: Review PCB Version 3 (100×70 mm)
+- Alle Netze bis auf GND geroutet. 293 Vias. Netze jetzt benannt (VBUS, VBUS_F, VBAT, VSYS, +3V3).
+- D1 korrekt (U3;9 an D1;1). R21/R22 doch an +3V3 (User), Werte 240k/47k → bei 3V3 eigentlich 220k/47k (240k → 0,97 V, ok).
+- Strompfade 0,6 mm ✓, 3V3 0,4 ✓, Lautsprecher 0,4 ✓, D+/D− 0,25 ✓. L1-Netze nur 0,2 mm (1,6 mm lang).
+- GND-Zone (F.Cu+B.Cu) + Keepout vorhanden, aber NICHT gefüllt gespeichert → User muss B drücken + speichern, dann DRC.

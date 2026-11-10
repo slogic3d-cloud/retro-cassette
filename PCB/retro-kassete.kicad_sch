@@ -5,6 +5,121 @@
 	(uuid "fb05cf8d-3686-48a1-91e4-a02cfc1ec362")
 	(paper "A4")
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Audio:MAX98357A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5478,12 +5593,6 @@
 		(uuid "11224fbf-8d11-4925-877d-00d818b4104a")
 	)
 	(junction
-		(at 238.76 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "113f331f-123e-4682-a9ef-dacb36824978")
-	)
-	(junction
 		(at 213.36 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5716,12 +5825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a300280b-6475-485f-8836-93d3bba5696e")
-	)
-	(junction
-		(at 236.22 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a57ac780-7000-4351-8285-0c99ff043d64")
 	)
 	(junction
 		(at 205.74 19.05)
@@ -6183,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 19.05) (xy 236.22 19.05)
+			(xy 231.14 19.05) (xy 231.14 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6573,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 19.05) (xy 241.3 19.05)
+			(xy 241.3 15.24) (xy 241.3 19.05)
 		)
 		(stroke
 			(width 0)
@@ -8241,6 +8344,76 @@
 		)
 		(uuid "fd26c86e-5dc9-4bb4-9557-4cb53e64ad7e")
 	)
+	(wire
+		(pts
+			(xy 231.14 15.24) (xy 241.3 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22d46db-133e-478d-b2c4-6de470f122a6")
+	)
+	(label "+3V3"
+		(at 236.22 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "927dd164-497b-42dc-bab9-3ad8797b10d1")
+	)
+	(label "+3V3"
+		(at 284.48 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e729026f-7ed8-4f6f-a8f7-08704c87fa52")
+	)
+	(label "VSYS"
+		(at 205.74 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2346393d-e770-4566-8ef4-931af9aec11e")
+	)
+	(label "VBAT"
+		(at 187.96 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c914e88d-fc27-4fd2-ad24-8e1e1964e2d6")
+	)
+	(label "VBUS"
+		(at 38.1 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58168f19-b150-46c1-9b33-4b2b6e7ca828")
+	)
+	(label "VBUS_F"
+		(at 67.31 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e57f450d-bf02-497c-bbca-a2aeb2d43b18")
+	)
 	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 44.45 15.24 90)
@@ -8854,7 +9027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 88.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9014,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 176.53 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9092,7 +9265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 200.66 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9440,7 +9613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 184.15 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9518,7 +9691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 283.21 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9597,7 +9770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 283.21 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9758,7 +9931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 53.34 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9894,7 +10067,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "281134da-fa13-42d4-84a9-9e6879627f0f")
 		(property "Reference" "SW1"
@@ -10078,7 +10251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 250.19 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10318,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10523,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 274.32 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10591,7 +10764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lautspr_R"
+		(property "Value" "Lautspr_L"
 			(at 279.4 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 198.12 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10925,7 +11098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11085,7 +11258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 231.14 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11246,7 +11419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 264.16 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11324,7 +11497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 67.31 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11402,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 299.72 11.43 0)
 			(hide yes)
 			(show_name no)
@@ -11772,7 +11945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11851,7 +12024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 224.79 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11919,7 +12092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lautspr_L"
+		(property "Value" "Lautspr_R"
 			(at 279.4 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 283.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12171,7 +12344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 299.72 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12659,7 +12832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 213.36 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13034,7 +13207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 229.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13194,7 +13367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13248,7 +13421,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "966b1261-4c98-4f5c-9584-9c6394125e31")
 		(property "Reference" "SW3"
@@ -13516,7 +13689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 173.99 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14004,7 +14177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 187.96 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14266,7 +14439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 209.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14796,7 +14969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 195.58 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14875,7 +15048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 142.24 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15079,7 +15252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 283.21 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15133,7 +15306,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d58dfeac-2764-42b7-aaaa-0a31144c5394")
 		(property "Reference" "SW2"
@@ -15541,7 +15714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 19.05 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16027,7 +16200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 48.26 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16105,7 +16278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" ""
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16485,7 +16658,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc72a834-3943-4c35-a1b6-02ac364c1dc1")
 		(property "Reference" "SW4"
@@ -16551,6 +16724,237 @@
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98af4311-5838-4ea3-ac82-1287d3941bd3")
+		(property "Reference" "#FLG01"
+			(at 88.9 41.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aecb92b-90b2-4f2a-b363-5a55b4fd8b32")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85294d78-83b3-4b06-b5b9-27eb173d2042")
+		(property "Reference" "#FLG02"
+			(at 52.07 13.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e437a6ad-fcf4-4129-be8e-5e74fd547066")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 241.3 26.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ffb3899-3a73-433e-aa54-217c9d0f3647")
+		(property "Reference" "#FLG03"
+			(at 241.3 24.770000000000003 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 241.30 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f237e64-c10e-4f61-9ab9-dae520fb8937")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

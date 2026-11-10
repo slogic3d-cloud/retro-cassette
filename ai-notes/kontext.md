@@ -51,7 +51,7 @@
 - Offen: Tier, Spulen-Motor/VU-LEDs (nicht gewählt), Flashen (ESP32 klassisch braucht USB-UART, z. B. CH340C).
 
 ## Interview Runde 2 (08.11.2026)
-- **Zweck:** (korrigiert 10.11.) KEIN Geschenk – eigenes Deko-Stück mit coolen Features. Keine feste Deadline.
+- **Zweck:** Offiziell (README/Fabricate) Deko-Stück mit coolen Features; INOFFIZIELL Weihnachtsgeschenk → privates Ziel 24.12., PCB bis ~Ende Nov bestellen. Geschenk NICHT in README/Fabricate-Texte.
 - **Lautsprecher:** User überlässt mir die Wahl → Stereo 2× 40 mm 3 W 4 Ω + 2× MAX98357A (direkt an VSYS).
 - **Akku:** 4000 mAh, User will 2× 2000 mAh parallel (1S2P). Gewarnt: identische Zellen, gleich voll vor
   Verbinden, nur mit PCM. Alternative 1× 4000 mAh mit PCM empfohlen. Entscheidung beim Bestellen.

@@ -81,3 +81,4 @@
 - Strompfade 0,6 mm ✓, 3V3 0,4 ✓, Lautsprecher 0,4 ✓, D+/D− 0,25 ✓. L1-Netze nur 0,2 mm (1,6 mm lang).
 - GND-Zone (F.Cu+B.Cu) + Keepout vorhanden, aber NICHT gefüllt gespeichert → User muss B drücken + speichern, dann DRC.
 - 10.11.: User korrigiert: kein Weihnachtsgeschenk, eigenes Deko-Stück → keine Deadline.
+- 10.11.: Präzisiert: offiziell Deko-Stück, inoffiziell Geschenk → Weihnachten bleibt privates Ziel.

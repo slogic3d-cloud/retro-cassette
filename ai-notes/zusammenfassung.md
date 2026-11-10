@@ -1,7 +1,7 @@
 # Stand & offene Punkte
 
 ## Stand (08.11.2026)
-- Keine Deadline (kein Geschenk, korrigiert 10.11.).
+- ⏰ Privates Ziel Weihnachten (inoffiziell Geschenk) → PCB bis ~Ende November bestellen.
 - Repo angelegt (leer) → Grundstruktur PCB/, CAD/, firmware/, ai-notes/, .gitignore.
 - Interview Runde 1 erledigt (siehe kontext.md).
 

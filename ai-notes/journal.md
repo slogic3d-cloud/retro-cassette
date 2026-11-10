@@ -80,3 +80,4 @@
 - D1 korrekt (U3;9 an D1;1). R21/R22 doch an +3V3 (User), Werte 240k/47k → bei 3V3 eigentlich 220k/47k (240k → 0,97 V, ok).
 - Strompfade 0,6 mm ✓, 3V3 0,4 ✓, Lautsprecher 0,4 ✓, D+/D− 0,25 ✓. L1-Netze nur 0,2 mm (1,6 mm lang).
 - GND-Zone (F.Cu+B.Cu) + Keepout vorhanden, aber NICHT gefüllt gespeichert → User muss B drücken + speichern, dann DRC.
+- 10.11.: User korrigiert: kein Weihnachtsgeschenk, eigenes Deko-Stück → keine Deadline.

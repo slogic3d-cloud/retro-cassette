@@ -9,3 +9,4 @@ U7,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,1,C2687116,https://www.lc
 J1,USB-C 16P,TYPE-C-31-M-12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,C165948,https://www.lcsc.com/product-detail/C165948.html,0.1868,JLC PCBA,Extended
 Q1,MMBT3904,MMBT3904,Package_TO_SOT_SMD:SOT-23,1,C20526,https://www.lcsc.com/product-detail/C20526.html,0.0117,JLC PCBA,Basic; Auto-Reset
 Q2,MMBT3904,MMBT3904,Package_TO_SOT_SMD:SOT-23,1,C20526,https://www.lcsc.com/product-detail/C20526.html,0.0117,JLC PCBA,Basic; Auto-Reset
+BAT1,LiPo-Akku 3.7V 4000mAh 124065 (12x40x65 mm) mit PCM + JST PH 2.0,4000mAh,JST PH 2.0 an J3,1,,https://de.aliexpress.com/item/1005008755128961.html,12.69,AliExpress,Polung vor Einstecken messen (J3 Pin1 = +)

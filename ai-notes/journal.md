@@ -103,3 +103,4 @@
 - 11.11.: Lautsprecher-Maße: 31×31 mm, mit Laschen 44 mm, Kabel 100 mm (zu kurz für rechte Seite) → Verlängerung Amazon B08RCXD67Z (5 Paare, 5,49€, Variante 2 Pin) in BOM.
 - 11.11.: MX-Schalter: AliExpress 1005006188367905, 0,69€ (pro Stück? unklar), vorläufig 6 Stk in BOM.
 - 11.11.: MX-Schalter: 0,69€ = 10 Stk (1 Pack), BOM korrigiert.
+- 11.11.: MX-Schalter = braun (tactile), 3-Pin → brauchen Front-Platte (14,0 mm Ausschnitt, 1,5 mm) zur Führung.

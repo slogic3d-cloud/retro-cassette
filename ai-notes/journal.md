@@ -104,3 +104,4 @@
 - 11.11.: MX-Schalter: AliExpress 1005006188367905, 0,69€ (pro Stück? unklar), vorläufig 6 Stk in BOM.
 - 11.11.: MX-Schalter: 0,69€ = 10 Stk (1 Pack), BOM korrigiert.
 - 11.11.: MX-Schalter = braun (tactile), 3-Pin → brauchen Front-Platte (14,0 mm Ausschnitt, 1,5 mm) zur Führung.
+- 11.11.: Keycaps: Amazon B0F1YQGJ35, OEM R4 PBT blank schwarz, 20 Stk, 10,99€ (Hinweis: nur 4 nötig → kleineres Pack/selbst drucken wäre günstiger).

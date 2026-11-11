@@ -106,3 +106,4 @@
 - 11.11.: MX-Schalter = braun (tactile), 3-Pin → brauchen Front-Platte (14,0 mm Ausschnitt, 1,5 mm) zur Führung.
 - 11.11.: Keycaps: Amazon B0F1YQGJ35, OEM R4 PBT blank schwarz, 20 Stk, 10,99€ (Hinweis: nur 4 nötig → kleineres Pack/selbst drucken wäre günstiger).
 - 11.11.: Amazon-Versand kostenlos (laut User) → BOM vermerkt. AliExpress-Versand noch offen.
+- 11.11.: AliExpress-Versand 6,34€ in BOM. Zusatzteile gesamt 44,69€ (ohne JLC).

@@ -108,3 +108,4 @@
 - 11.11.: Amazon-Versand kostenlos (laut User) → BOM vermerkt. AliExpress-Versand noch offen.
 - 11.11.: AliExpress-Versand 6,34€ in BOM. Zusatzteile gesamt 44,69€ (ohne JLC).
 - 11.11.: JLC-Angebot: 103,10 + 11,28 Versand - 8,95 Coupon = 105,43€. Gesamtprojekt ≈ 150,12€ (ohne Rahmen-Filament) → über Tier 3 (25), passt in Tier 2 (50).
+- 11.11.: PCB-Screenshots (3D, F.Cu, B.Cu) nach PCB/screenshots/.

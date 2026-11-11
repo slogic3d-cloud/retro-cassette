@@ -101,3 +101,4 @@
 - 11.11.: Akku gewählt: AliExpress 1005008755128961, 124065 4000mAh, PH2.0, PCM, 12,69€. 12 mm dick → Rahmentiefe +2 mm. Polung vor 1. Einstecken messen!
 - 11.11.: Lautsprecher gewählt: Amazon B0DB1WQWXV (QUARKZMAN 2× 3W 4Ω, JST PH2.0), 8,49€. Maße fehlen → User prüft (evtl. rechteckig statt 40 mm rund).
 - 11.11.: Lautsprecher-Maße: 31×31 mm, mit Laschen 44 mm, Kabel 100 mm (zu kurz für rechte Seite) → Verlängerung Amazon B08RCXD67Z (5 Paare, 5,49€, Variante 2 Pin) in BOM.
+- 11.11.: MX-Schalter: AliExpress 1005006188367905, 0,69€ (pro Stück? unklar), vorläufig 6 Stk in BOM.

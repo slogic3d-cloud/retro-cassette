@@ -22,7 +22,7 @@
 - ai-notes/ regelmäßig aktualisieren und pushen.
 
 ## Fabricate-Anforderungen (vor Einreichen auf fabricate.hackclub.com/docs prüfen)
-- Tier nach Stunden + Komplexität: Tier 4 ~8–16 h/$50, Tier 3 ~17–33 h/$125, Tier 2 ~34–66 h/$250.
+- (VERALTET, Stand 11.11.: jetzt Tier 1–5 in Scraps: 1000/500/250/100/50) Früher: Tier 4 ~8–16 h/$50, Tier 3 ~17–33 h/$125, Tier 2 ~34–66 h/$250.
   Kostenoptimiert, keine Teile "für später".
 - Repo: README (Beschreibung, Warum, Bilder, Screenshots Schaltplan/PCB/3D, Pinout/Verkabelung, BOM-Tabelle/Link +
   Gesamtkosten, AI Disclosure, Lizenz), JOURNAL.md mit Frontmatter (title, github, description, created_at, total_time),

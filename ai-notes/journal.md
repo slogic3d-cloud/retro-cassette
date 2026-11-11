@@ -86,3 +86,13 @@
 ## 11.11.2026: Review PCB Version 4 (GND-Zone gefüllt)
 - tools/conn2.py (mit gefüllten Zonen): alle Netze verbunden außer GND an U4;3 (PGND), U4;7 (PS/SYNC), U4;9 (GND)
   → kleine VSON-Pads, Thermal-Spokes (0,4–0,5 mm) breiter als Pad → wahrscheinlich nicht angebunden. Fix: kurze Bahn zum Mittelpad U4;11 / Via.
+
+## 11.11.2026: ZIP "Retro-Kasette.zip" einsortiert
+- Inhalt geprüft (sicher entpackt im Scratchpad). Ins Repo: PCB/*.kicad_*, PCB/retro-kassete.step, PCB/gerbers.zip
+  (Fabrication-Toolkit-Gerber inkl. Drill-Maps), PCB/production/{bom,positions,designators}.csv + netlist.ipc.
+  Nicht übernommen: retro-kassete-backups/ (gitignored), doppelte Gerber/ + Gerber.zip (KiCad-Plot).
+- tools/conn2.py: 0 offene Netze (U4-GND jetzt angebunden). 
+- PROBLEM: production/bom.csv LCSC-Spalte leer, Schaltplan hat LCSC-Felder (58 gefüllt) → F8 fehlte vor Export. Neu exportieren!
+- SW1–4: dnp=yes, aber in_pos_files=yes; H1–4 in_pos_files=yes → für JLC "Exclude from position files" setzen.
+- Maße für Rahmen: PCB 100×70, Löcher M3 bei (3.5|3.5),(96.5|3.5),(96.5|66.5),(3.5|66.5); Tastenmitten y=57.5,
+  x=21.42/40.47/59.53/78.58; J1 USB rechts y=31; J2 SD rechts oben; J3 Akku rechts y=48; J4/J5 links y=38/22; U1 oben x41–59.

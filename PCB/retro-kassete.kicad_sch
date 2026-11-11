@@ -5,121 +5,6 @@
 	(uuid "fb05cf8d-3686-48a1-91e4-a02cfc1ec362")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Audio:MAX98357A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5543,6 +5428,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 325.12 19.05)
@@ -7666,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 15.24) (xy 241.3 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22d46db-133e-478d-b2c4-6de470f122a6")
+	)
+	(wire
+		(pts
 			(xy 245.11 109.22) (xy 252.73 109.22)
 		)
 		(stroke
@@ -8344,36 +8354,6 @@
 		)
 		(uuid "fd26c86e-5dc9-4bb4-9557-4cb53e64ad7e")
 	)
-	(wire
-		(pts
-			(xy 231.14 15.24) (xy 241.3 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22d46db-133e-478d-b2c4-6de470f122a6")
-	)
-	(label "+3V3"
-		(at 236.22 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "927dd164-497b-42dc-bab9-3ad8797b10d1")
-	)
-	(label "+3V3"
-		(at 284.48 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e729026f-7ed8-4f6f-a8f7-08704c87fa52")
-	)
 	(label "VSYS"
 		(at 205.74 19.05 0)
 		(effects
@@ -8383,16 +8363,6 @@
 			(justify left bottom)
 		)
 		(uuid "2346393d-e770-4566-8ef4-931af9aec11e")
-	)
-	(label "VBAT"
-		(at 187.96 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c914e88d-fc27-4fd2-ad24-8e1e1964e2d6")
 	)
 	(label "VBUS"
 		(at 38.1 15.24 0)
@@ -8404,6 +8374,26 @@
 		)
 		(uuid "58168f19-b150-46c1-9b33-4b2b6e7ca828")
 	)
+	(label "+3V3"
+		(at 236.22 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "927dd164-497b-42dc-bab9-3ad8797b10d1")
+	)
+	(label "VBAT"
+		(at 187.96 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c914e88d-fc27-4fd2-ad24-8e1e1964e2d6")
+	)
 	(label "VBUS_F"
 		(at 67.31 15.24 0)
 		(effects
@@ -8413,6 +8403,16 @@
 			(justify left bottom)
 		)
 		(uuid "e57f450d-bf02-497c-bbca-a2aeb2d43b18")
+	)
+	(label "+3V3"
+		(at 284.48 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e729026f-7ed8-4f6f-a8f7-08704c87fa52")
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
@@ -8471,6 +8471,17 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 44.45 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C135341"
+			(at 44.45 15.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,6 +8563,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 226.06 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8644,6 +8666,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
@@ -8710,6 +8743,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 292.1 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 292.1 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8792,6 +8836,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 101.6 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8887,6 +8942,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2687116"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "cfe13eec-63b1-43e1-a219-b2f1640479ae")
 		)
@@ -8970,6 +9036,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C36871"
+			(at 135.89 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,6 +9206,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 302.26 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
 			(at 302.26 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9400,6 +9488,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20526"
+			(at 186.69 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "347db4f9-b80e-4fc3-81bf-79afd939b429")
 		)
@@ -9485,6 +9584,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 330.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "542b19fc-ceaf-4f8d-8fd4-a28df7f6b36a")
 		)
@@ -9556,6 +9666,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 44.45 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 44.45 22.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,6 +10003,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 209.55 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e544506b-a904-4ad4-ad17-546d5394e4b7")
 		)
@@ -10043,6 +10175,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 325.12 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "258f1938-a3f7-4685-a2bf-389e214a36d2")
 		)
@@ -10123,6 +10266,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c94dad42-2fcf-4297-b1e1-ce9d472c7dfe")
 		)
@@ -10133,6 +10287,83 @@
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 241.3 26.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ffb3899-3a73-433e-aa54-217c9d0f3647")
+		(property "Reference" "#FLG03"
+			(at 241.3 24.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 241.3 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 241.3 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f237e64-c10e-4f61-9ab9-dae520fb8937")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10194,6 +10425,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25860"
+			(at 135.89 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,6 +10603,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 44.45 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "655ab5a1-087a-4a5e-b560-72cd4dc68050")
 		)
@@ -10433,6 +10686,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 322.58 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10593,6 +10857,17 @@
 			)
 		)
 		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 270.51 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C910544"
 			(at 270.51 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10808,6 +11083,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C295747"
+			(at 276.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e87abb6f-8c69-419d-9325-20973fdd08cc")
 		)
@@ -10890,6 +11176,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 67.31 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce76a45a-7975-4f5e-8dda-1cf23b502908")
 		)
@@ -10962,6 +11259,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 327.66 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11210,6 +11518,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 213.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5f71619-054c-4455-8950-a4818ac3105a")
 		)
@@ -11360,6 +11679,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 241.3 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 241.3 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11687,6 +12017,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 195.58 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ba902a7-4d77-47b4-8685-6d9d7cb6d4e4")
 		)
@@ -11759,6 +12100,17 @@
 			)
 		)
 		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 270.51 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C910544"
 			(at 270.51 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11887,6 +12239,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 195.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C295747"
+			(at 195.58 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,6 +12499,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C295747"
+			(at 276.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e5222bf-4487-4927-b281-140113e4a236")
 		)
@@ -12208,6 +12582,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 231.14 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12456,6 +12841,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 210.82 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c19b79c-9fde-4676-ad77-2a2a3aabec2a")
 		)
@@ -12528,6 +12924,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 312.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 312.42 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12620,6 +13027,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e792eecb-57f1-40d4-9ec3-752efba32384")
 		)
@@ -12692,6 +13110,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
 			(at 220.98 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12784,6 +13213,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 215.9 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c542eea-87f6-48f1-a079-045ece37f282")
 		)
@@ -12794,6 +13234,83 @@
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85294d78-83b3-4b06-b5b9-27eb173d2042")
+		(property "Reference" "#FLG02"
+			(at 52.07 13.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e437a6ad-fcf4-4129-be8e-5e74fd547066")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -12969,6 +13486,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20526"
+			(at 175.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b8c82b35-c2fc-44a9-bc0f-c71f7078fa5e")
 		)
@@ -13042,6 +13570,17 @@
 			)
 		)
 		(property "Description" "Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10"
+			(at 274.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28060"
 			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13150,6 +13689,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4012675"
+			(at 135.89 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13319,6 +13869,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 297.18 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35838f2f-231e-4acc-9e4b-4a433a9ff86a")
 		)
@@ -13477,6 +14038,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.87 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "37070a4a-c3a2-4e43-be27-6986b319a5fd")
 		)
@@ -13559,6 +14131,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C138029"
+			(at 236.22 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40ed817c-20a2-4137-a7db-ebc44f60b70c")
 		)
@@ -13569,6 +14152,83 @@
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98af4311-5838-4ea3-ac82-1287d3941bd3")
+		(property "Reference" "#FLG01"
+			(at 88.9 41.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aecb92b-90b2-4f2a-b363-5a55b4fd8b32")
+		)
+		(instances
+			(project "retro-kassete"
+				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13631,6 +14291,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
 			(at 238.76 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13801,6 +14472,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 297.18 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa7b3e49-47cc-4b26-a93b-a7cceb278b4c")
 		)
@@ -13873,6 +14555,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 314.96 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 314.96 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13965,6 +14658,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 302.26 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b285a4d-5152-47aa-96be-d80e54f7cf1f")
 		)
@@ -14047,6 +14751,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 187.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f30ce01b-4be0-4735-803f-8bbede6b7891")
 		)
@@ -14119,6 +14834,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 204.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14279,6 +15005,17 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 229.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C701342"
 			(at 229.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14552,6 +15289,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C54313"
+			(at 154.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "eaa08191-e9bf-4be6-92ea-73de52fe5c9b")
 		)
@@ -14679,6 +15427,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 53.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
@@ -14744,6 +15503,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 307.34 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 307.34 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -14836,6 +15606,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 45.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
@@ -14911,6 +15692,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 173.99 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15158,6 +15950,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 22.86 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A6"
 			(uuid "53680d7a-deeb-4daa-9506-2aa9a9c15867")
 		)
@@ -15362,6 +16165,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b51ea0e-915c-40e4-adaa-b41e364adea6")
 		)
@@ -15444,6 +16258,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 30.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
@@ -15512,6 +16337,17 @@
 		)
 		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
 			(at 87.376 -8.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84681"
+			(at 88.9 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15636,6 +16472,17 @@
 		)
 		(property "Description" "Micro SD Card Socket"
 			(at 189.23 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C585350"
+			(at 189.23 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15826,6 +16673,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 320.04 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "343f0590-a208-4a91-8033-341c1f29bfb3")
 		)
@@ -15898,6 +16756,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 250.19 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15990,6 +16859,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7966aa4d-6455-4ba4-805c-2e14735df5c0")
 		)
@@ -16072,6 +16952,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00cd146a-4fe0-4bd3-86a5-4432f610e441")
 		)
@@ -16142,6 +17033,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318884"
 			(at 171.45 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16390,6 +17292,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 205.74 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae4fd52a-4f55-4922-8ff8-050fee57efdd")
 		)
@@ -16472,6 +17385,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96870"
+			(at 264.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aea8b45c-9d5d-41fd-a4d7-90d29a6a68b2")
 		)
@@ -16543,6 +17467,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 172.72 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16634,6 +17569,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 317.5 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c96db128-7ee0-4678-9a84-a6ec10c12416")
 		)
@@ -16714,6 +17660,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e42d28a8-c2fa-4089-b960-2b02065d15d7")
 		)
@@ -16724,237 +17681,6 @@
 			(project "retro-kassete"
 				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 88.9 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98af4311-5838-4ea3-ac82-1287d3941bd3")
-		(property "Reference" "#FLG01"
-			(at 88.9 41.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 92.71 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7aecb92b-90b2-4f2a-b363-5a55b4fd8b32")
-		)
-		(instances
-			(project "retro-kassete"
-				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 52.07 15.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85294d78-83b3-4b06-b5b9-27eb173d2042")
-		(property "Reference" "#FLG02"
-			(at 52.07 13.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 52.07 11.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e437a6ad-fcf4-4129-be8e-5e74fd547066")
-		)
-		(instances
-			(project "retro-kassete"
-				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 241.3 26.67 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ffb3899-3a73-433e-aa54-217c9d0f3647")
-		(property "Reference" "#FLG03"
-			(at 241.3 24.770000000000003 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 241.30 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 241.3 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f237e64-c10e-4f61-9ab9-dae520fb8937")
-		)
-		(instances
-			(project "retro-kassete"
-				(path "/fb05cf8d-3686-48a1-91e4-a02cfc1ec362"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)

@@ -97,3 +97,4 @@
 - Maße für Rahmen: PCB 100×70, Löcher M3 bei (3.5|3.5),(96.5|3.5),(96.5|66.5),(3.5|66.5); Tastenmitten y=57.5,
   x=21.42/40.47/59.53/78.58; J1 USB rechts y=31; J2 SD rechts oben; J3 Akku rechts y=48; J4/J5 links y=38/22; U1 oben x41–59.
 - 11.11.: Neu-Export: BOM mit allen LCSC-Nummern ✓, SW1–4 aus CPL ✓ (H1–4 noch drin, ohne LCSC → harmlos). 0 offene Netze. Hochgeladen.
+- 11.11.: LICENSE (MIT, slogic3d-cloud) angelegt, ai-notes/todo.md geschrieben. Sichtbarkeit kann Claude nicht ändern (kein Tool) → User macht es. JOURNAL.md gelesen: Zeiten stimmen (13 h), Rechtschreib-Feedback gegeben.

@@ -82,3 +82,7 @@
 - GND-Zone (F.Cu+B.Cu) + Keepout vorhanden, aber NICHT gefüllt gespeichert → User muss B drücken + speichern, dann DRC.
 - 10.11.: User korrigiert: kein Weihnachtsgeschenk, eigenes Deko-Stück → keine Deadline.
 - 10.11.: Präzisiert: offiziell Deko-Stück, inoffiziell Geschenk → Weihnachten bleibt privates Ziel.
+
+## 11.11.2026: Review PCB Version 4 (GND-Zone gefüllt)
+- tools/conn2.py (mit gefüllten Zonen): alle Netze verbunden außer GND an U4;3 (PGND), U4;7 (PS/SYNC), U4;9 (GND)
+  → kleine VSON-Pads, Thermal-Spokes (0,4–0,5 mm) breiter als Pad → wahrscheinlich nicht angebunden. Fix: kurze Bahn zum Mittelpad U4;11 / Via.

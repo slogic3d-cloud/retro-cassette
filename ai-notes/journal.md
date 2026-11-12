@@ -110,3 +110,4 @@
 - 11.11.: JLC-Angebot: 103,10 + 11,28 Versand - 8,95 Coupon = 105,43€. Gesamtprojekt ≈ 150,12€ (ohne Rahmen-Filament) → über Tier 3 (25), passt in Tier 2 (50).
 - 11.11.: PCB-Screenshots (3D, F.Cu, B.Cu) nach PCB/screenshots/.
 - 11.11.: Fabricate-Tiers laut Screenshot jetzt 1–5 in 'scraps': T1 1000, T2 500, T3 250, T4 100, T5 50. Alte $-Angaben in kontext.md veraltet! Scrap-Wert + Stunden je Tier unbekannt → User prüft Docs.
+- 12.11.: Schaltplan-Screenshot nach PCB/screenshots/schematic.png.

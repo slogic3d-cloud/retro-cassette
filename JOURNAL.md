@@ -3,7 +3,7 @@ title: "retro-cassette"
 github: "https://github.com/slogic3d-cloud/retro-cassette"
 description: "a deko thing with an retro cassette which can play musik"
 created_at: "2026-11-08"
-total_time: "13h"
+total_time: "14h 36m"
 ---
 
 # November 8, 2026: Starting with research and schematic
@@ -56,3 +56,30 @@ Generated the Gerber-Files and the .step so i can do tomorrow the case for that
 ![](https://fabricate.hackclub-assets.com/2344e3113b73128cab8f5941a4a35c3bd0621bd5c2bec8ad31a54c708724c58a/image-png/Screenshot%202026-11-11%20175406%20-%20Copy.png)
 
 **Total time spent: 1h**
+
+# November 11, 2026 (entry 2): Research for the materials
+<!-- fabricate:entry 2642 -->
+
+After a short break I researched for the prices and the delivery-price on Amazon and AliExpress.
+I searched the I searched for various parts and received both good and bad results.
+On JLCPCB I made the PCB thing to have a look over the price. 
+
+I started a little bit of the firmware.
+
+![](https://fabricate.hackclub-assets.com/9ce2ed6d402c03609fa57f78b7d5cd0d2fc0389edf29541217a35662aee3b253/image-png/Screenshot%202026-11-11%20194904.png)
+![](https://fabricate.hackclub-assets.com/9b76c8fdf37f87c802cb0fa52951170ed17b70eda13a22aaa15c5686129010cc/image-png/Screenshot%202026-11-11%20201735.png)
+![](https://fabricate.hackclub-assets.com/ed503312758578f7af57a4f2299428af361b6aaa60d52e7edd9c33cc91ae966c/image-png/Screenshot%202026-11-11%20201823.png)
+![](https://fabricate.hackclub-assets.com/9352c956d872dcf131185c71272e369fee9333cf7b5070fa9035452eaeab1e18/image-png/Screenshot%202026-11-11%20201831.png)
+
+**Total time spent: 48m**
+
+# November 15, 2026: beginn with the CAD things
+<!-- fabricate:entry 3076 -->
+
+Today, I began working on the frame for the entire project.
+I could not complete it entirely, as I can only add the cutouts once I know exactly where they need to be positioned. Therefore, I will make the cutouts during the final assembly.
+
+![](https://fabricate.hackclub-assets.com/551a9daf608696ca0e02f8589ac68c2db462aa5a205adde943d75f78386958da/image-png/Screenshot%202026-11-15%20163609.png)
+![](https://fabricate.hackclub-assets.com/8245e6fecb258b28d679c1e48b43b5abdd77c719ba425750b8558faf0570d043/image-png/Screenshot%202026-11-15%20163617.png)
+
+**Total time spent: 48m**

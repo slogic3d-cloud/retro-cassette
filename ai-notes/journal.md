@@ -111,3 +111,4 @@
 - 11.11.: PCB-Screenshots (3D, F.Cu, B.Cu) nach PCB/screenshots/.
 - 11.11.: Fabricate-Tiers laut Screenshot jetzt 1–5 in 'scraps': T1 1000, T2 500, T3 250, T4 100, T5 50. Alte $-Angaben in kontext.md veraltet! Scrap-Wert + Stunden je Tier unbekannt → User prüft Docs.
 - 12.11.: Schaltplan-Screenshot nach PCB/screenshots/schematic.png.
+- 15.11.: CAD/Rahmen-Korpus.3mf: 170×220×39 mm (220 = Kobra-Limit!), Löcher 93×63 passen zur PCB, Ø~3,1 (knapp für M3). STEP + f3d/Link fehlen noch.

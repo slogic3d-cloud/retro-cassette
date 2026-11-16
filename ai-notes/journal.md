@@ -115,3 +115,4 @@
 - 16.11.: CAD/ ergänzt: Box-Switches.3mf (104×74×13), Schiebeplatte.3mf (158×210×12,5), retro-kassete.f3d (Fusion-Quelle). Hochgeladene STEP = identisch mit PCB-STEP → Rahmen-STEP fehlt noch. Rahmen-Korpus unverändert. Rahmen aus Holz (User).
 - 16.11.: BOM.csv vom User (Fabricate-Format) übernommen; Vendor ergänzt; LCSC-Zeilen auf 0 (im JLC-Preis enthalten, war doppelt gezählt); Total 150,12 (EUR!, Spalte heißt USD → umrechnen).
 - 16.11.: 10 Scraps = $5 → T1 $500, T2 $250, T3 $125, T4 $50, T5 $25. Kosten ~150€ ≈ $160–175 → Empfehlung Tier 2. #fabricate-Post nicht nötig (User). Bestellung/Bau erst nach 'habs eingereicht'.
+- 16.11.: CAD/retro-kassete-final.step (Fusion-Baugruppe inkl. PCB). User wählt Option B: kein Akku, PCB vereinfachen (U3/U4/L1/J3/D1 raus, AMS1117-3.3 C6186 rein).

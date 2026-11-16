@@ -1,6 +1,6 @@
 # retro-cassette
 
-### A decoration thing with an retro cassette which can play musik
+## A decoration thing with an retro cassette which can play musik
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/730c1163-bd13-4e75-bf21-e0fa9a5c4108" />
 
@@ -8,7 +8,7 @@
 
 ## What it does? 
 
-### It can playing music from an SD card with an retro look
+It can playing music from an SD card with an retro look
 
 ### Features:
 
@@ -50,10 +50,9 @@ The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
 BOM: [BOM](BOM.csv)
 
 ## Assemble:
+All parts will come together in a frame made out of wood.
 
-### All parts will come together in a frame made out of wood.
-
-### I solder the MX-Switches on the Board and made the frame.
+I solder the MX-Switches on the Board and made the frame.
 
 
 ## Firmware:
@@ -71,4 +70,4 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 
 ## What AI did:
-### AI wrote me the text to how you flash it and was planning the whole projekt with me. He cerrects me every time i forgot something or made mistakes, he did the repo structure and the research.
+AI wrote me the text to how you flash it and was planning the whole projekt with me. He cerrects me every time i forgot something or made mistakes, he did the repo structure and the research.

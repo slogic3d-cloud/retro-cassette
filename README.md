@@ -49,14 +49,14 @@ with an battery
 The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
 BOM: [BOM](BOM.csv)
 
-## assemble:
+## Assemble:
 
 ### All parts will come together in a frame made out of wood.
 
 ### I solder the MX-Switches on the Board and made the frame.
 
 
-## firmware:
+## Firmware:
 
 ### [Firmware](firmware/)
 
@@ -66,5 +66,9 @@ To get started, you will need VS Code with the PlatformIO IDE extension installe
 
 To flash the firmware, first open the firmware/ folder in VS Code by selecting File and then Open Folder, and connect the board to your PC via USB-C. Next, click the arrow icon (Upload) in the bottom blue status bar. PlatformIO will then compile and upload the firmware; because the auto-reset circuit via Q1/Q2 automatically switches the ESP32 into flash mode, you do not need to press any buttons during this process. However, if the upload fails—for instance, with a "Failed to connect" error—hold down the BOOT button (SW6), briefly press the RESET button (SW5), release the BOOT button, and click Upload once more.
 
-##Pinout
+## Pinout
 [Pinout](docs/PINOUT.md)
+
+
+## What AI did:
+### AI wrote me the text to how you flash it and was planning the whole projekt with me. He cerrects me every time i forgot something or made mistakes, he did the repo structure and the research.

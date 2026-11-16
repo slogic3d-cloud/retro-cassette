@@ -112,3 +112,4 @@
 - 11.11.: Fabricate-Tiers laut Screenshot jetzt 1–5 in 'scraps': T1 1000, T2 500, T3 250, T4 100, T5 50. Alte $-Angaben in kontext.md veraltet! Scrap-Wert + Stunden je Tier unbekannt → User prüft Docs.
 - 12.11.: Schaltplan-Screenshot nach PCB/screenshots/schematic.png.
 - 15.11.: CAD/Rahmen-Korpus.3mf: 170×220×39 mm (220 = Kobra-Limit!), Löcher 93×63 passen zur PCB, Ø~3,1 (knapp für M3). STEP + f3d/Link fehlen noch.
+- 16.11.: CAD/ ergänzt: Box-Switches.3mf (104×74×13), Schiebeplatte.3mf (158×210×12,5), retro-kassete.f3d (Fusion-Quelle). Hochgeladene STEP = identisch mit PCB-STEP → Rahmen-STEP fehlt noch. Rahmen-Korpus unverändert. Rahmen aus Holz (User).

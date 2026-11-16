@@ -1,19 +1,13 @@
-# To-do (Stand 11.11.2026)
+# To-do (Stand 16.11.2026)
 
-## Morgen (12.11.)
-1. [ ] Repo öffentlich machen (GitHub → Settings → General → ganz unten "Change visibility" → Public)
-2. [ ] Lautsprecher + Akku + MX-Schalter + Keycaps aussuchen (oder Claude um Vorschläge mit Links bitten) → Claude macht BOM.csv komplett
-3. [ ] Screenshots für #fabricate: Schaltplan, PCB oben, PCB unten, 3D (Alt+3)
-4. [ ] Design-Check in #fabricate posten (Text, Repo-Link, Screenshots, Gesamtkosten)
-5. [ ] Grant-Ablauf in #fabricate / Docs klären – NICHTS selbst bezahlen
-6. [ ] Rahmen in Fusion 360 anfangen (STEP importieren, Maße aus Claude-Chat / ai-notes/journal.md)
-7. [ ] Journal-Eintrag auf Fabricate (nur echte Zeit, Bild)
+## Bis zum Einreichen
+1. [ ] Rahmen-STEP aus Fusion exportieren → CAD/
+2. [ ] BOM.csv in USD umrechnen (Spalte heißt USD, Werte sind EUR)
+3. [ ] Tier eintragen (Empfehlung Tier 2 = 500 Scraps = $250; Stunden-Mindestwert in Docs prüfen)
+4. [ ] Firmware-Grundgerüst in firmware/ (PlatformIO; Tasten → I2S → SD → Bluetooth)
+5. [ ] README schreiben (User selbst)
+6. [ ] Journal aktualisieren
+7. [ ] Einreichen → User sagt "habs eingereicht"
 
-## Danach
-8. [ ] Feedback aus #fabricate umsetzen
-9. [ ] Nach Freigabe: JLC bestellen (Gerber + BOM + CPL, PCBA Standard, 3D-Drehung prüfen, Global Standard Direct Line)
-10. [ ] Rahmen fertig konstruieren + drucken (Kobra 2 Neo, PLA)
-11. [ ] Firmware (PlatformIO): Tasten → Ton I2S → SD-MP3 → Bluetooth → WLAN-Upload
-12. [ ] Zusammenbau + Test
-13. [ ] README schreiben (User selbst): Beschreibung, Warum, Bilder, Screenshots, Pinout, BOM + Gesamtkosten, AI Disclosure, Lizenz (MIT)
-14. [ ] Einreichen, Tier wählen
+## Erst nach dem Einreichen (nicht mitzählen)
+- Bestellen (JLC, Amazon, AliExpress), Holzrahmen bauen, Zusammenbau, Test, Firmware fertig

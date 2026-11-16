@@ -83,3 +83,18 @@ I could not complete it entirely, as I can only add the cutouts once I know exac
 ![](https://fabricate.hackclub-assets.com/8245e6fecb258b28d679c1e48b43b5abdd77c719ba425750b8558faf0570d043/image-png/Screenshot%202026-11-15%20163617.png)
 
 **Total time spent: 48m**
+
+# November 16, 2026: Came a bit near to the end
+<!-- fabricate:entry 3208 -->
+
+Today I create the README.md file on github.
+I updated the BOM.csv, JOURNAL.md .
+I finished the CAD things. 
+
+I installed the things for an ESP32 on my PC.
+
+![](https://fabricate.hackclub-assets.com/8245e6fecb258b28d679c1e48b43b5abdd77c719ba425750b8558faf0570d043/image-png/Screenshot%202026-11-15%20163617.png)
+![](https://fabricate.hackclub-assets.com/2bec1904fba7947576d0961e929b220071e634f75b39f102168122e685f2fc11/image-png/Screenshot%202026-11-16%20161219.png)
+![](https://fabricate.hackclub-assets.com/22063f6caf0432523f005ca314b40f73164c47750d6a357ff8a9775eb235fad7/image-png/Screenshot%202026-11-16%20161229.png)
+
+**Total time spent: 2h**

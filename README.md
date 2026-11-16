@@ -1,6 +1,6 @@
 # retro-cassette
 
-## A decoration thing with an retro cassette which can play musik
+## A decoration piece with a retro cassette that can play music
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/730c1163-bd13-4e75-bf21-e0fa9a5c4108" />
 
@@ -8,7 +8,7 @@
 
 ## What it does? 
 
-It can playing music from an SD card with an retro look
+It can play music from an SD card with a retro look
 
 ### Features:
 
@@ -18,22 +18,21 @@ plays MP3s from a microSD-card
 
 Stereo with 2 Speakers (2× 3 W)
 
-4 mechanic switches like an Cassettedeck: ⏮ · ⏯ · ⏭ · Modus (Bluetooth/SD)
+4 mechanical switches like a cassette deck: ⏮ · ⏯ · ⏭ · Mode (Bluetooth/SD)
 
 Volume via long press on ⏮/⏭
 
 USB-C for power and for flashing
 
-with an battery
+with a battery
 
 
-## Why I would work on it?
+## Why did I build it?
+### Because it looks amazing and I learned:
 
-### Because of it look amazing an I learned:
+-How to design an PCB
 
--How I design an PCB
-
--How the ESP32 works and how I flashe it
+-How the ESP32 works and how I flash it
 
 
 ## Pictures
@@ -45,11 +44,11 @@ with an battery
 
 ## Bom + Cost
 
-### It cost round about 125$
+### It cost round about 138$
 The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
 BOM: [BOM](BOM.csv)
 
-## Assemble:
+## Assembly:
 All parts will come together in a frame made out of wood.
 
 I solder the MX-Switches on the Board and made the frame.
@@ -59,7 +58,7 @@ I solder the MX-Switches on the Board and made the frame.
 
 ### [Firmware](firmware/)
 
-### How do you do it, to flash it:
+### How to flash it:
 
 To get started, you will need VS Code with the PlatformIO IDE extension installed, along with a USB-C cable that supports data transfer (charge-only cables will not work). If you are using Windows, you may also need the CH340 driver from the manufacturer WCH, as the chip on the board is a CH340C.
 
@@ -70,7 +69,7 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 
 ## What AI did:
-AI wrote me the text to how you flash it and was planning the whole projekt with me. He cerrects me every time i forgot something or made mistakes, he did the repo structure and the research.
+AI wrote me the text to how you flash it and was planning the whole project with me. He corrects me every time I forgot something or made mistakes, he did the repo structure and the research.
 
 ##License
 

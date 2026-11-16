@@ -8,15 +8,15 @@
 
 ##What it does? 
 
-###It can playing music from an sd-card with an retro look
+###It can playing music from an SD card with an retro look
 
 ###Features:
 
-Bluetooth-Speaker, the phone can connect it
+Bluetooth-Speaker, so your phone can connect to it
 
-plays MP3s from an microSD-card
+plays MP3s from a microSD-card
 
-Stereo with 2 Speakern (2× 3 W)
+Stereo with 2 Speakers (2× 3 W)
 
 4 mechanic switches like an Cassettedeck: ⏮ · ⏯ · ⏭ · Modus (Bluetooth/SD)
 
@@ -44,7 +44,7 @@ with an battery
 
 ## Bom + Cost
 
-### It cost round about 125 bucks.
+### It cost round about 125$
 The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
 BOM: [BOM](BOM.csv)
 
@@ -65,4 +65,5 @@ To get started, you will need VS Code with the PlatformIO IDE extension installe
 
 To flash the firmware, first open the firmware/ folder in VS Code by selecting File and then Open Folder, and connect the board to your PC via USB-C. Next, click the arrow icon (Upload) in the bottom blue status bar. PlatformIO will then compile and upload the firmware; because the auto-reset circuit via Q1/Q2 automatically switches the ESP32 into flash mode, you do not need to press any buttons during this process. However, if the upload fails—for instance, with a "Failed to connect" error—hold down the BOOT button (SW6), briefly press the RESET button (SW5), release the BOOT button, and click Upload once more.
 
-
+##Pinout
+[Pinout](docs/PINOUT.md)

@@ -118,3 +118,4 @@
 - 16.11.: CAD/retro-kassete-final.step (Fusion-Baugruppe inkl. PCB). User wählt Option B: kein Akku, PCB vereinfachen (U3/U4/L1/J3/D1 raus, AMS1117-3.3 C6186 rein).
 - 16.11.: BOM: Akku entfernt (Option B); JST-Verlängerung, MX-Schalter, Ali-Versand = bought privately. Grant-Total 124,91 EUR (JLC noch alter Preis, nach Änderung neu).
 - 16.11.: User-BOM übernommen (unverändert). PCB bleibt wie sie ist (kein Option B), kein Akku in BOM. Hinweis offen: JST/MX Funding noch 'Grant' trotz privat; Beträge EUR statt USD.
+- 16.11.: docs/PINOUT.md angelegt (aus geprüfter Netzliste): Tasten 32/33/34/35, I2S 26/25/22, SD 5/18/19/23, ADC 36, PGOOD 39, J4=rechts(U6), J5=links(U5).

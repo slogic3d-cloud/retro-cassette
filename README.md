@@ -1,5 +1,5 @@
 #retro-cassette
-###a decoration thing with an retro cassette which can play musik
+###A decoration thing with an retro cassette which can play musik
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/730c1163-bd13-4e75-bf21-e0fa9a5c4108" />
 

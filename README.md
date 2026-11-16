@@ -71,3 +71,7 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 ## What AI did:
 AI wrote me the text to how you flash it and was planning the whole projekt with me. He cerrects me every time i forgot something or made mistakes, he did the repo structure and the research.
+
+##License
+
+MIT-License [LICENSE](LICENSE)

@@ -30,9 +30,9 @@ with a battery
 ## Why did I build it?
 ### Because it looks amazing and I learned:
 
--How to design an PCB
+-How to design a PCB
 
--How the ESP32 works and how I flash it
+-How the ESP32 works and how to flash it
 
 
 ## Pictures
@@ -51,7 +51,7 @@ BOM: [BOM](BOM.csv)
 ## Assembly:
 All parts will come together in a frame made out of wood.
 
-I solder the MX-Switches on the Board and made the frame.
+I soldered the MX-Switches on the Board and made the frame.
 
 
 ## Firmware:
@@ -69,8 +69,8 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 
 ## What AI did:
-AI wrote me the text to how you flash it and was planning the whole project with me. He corrects me every time I forgot something or made mistakes, he did the repo structure and the research.
+AI wrote me the text to how you flash it and was planning the whole project with me. It corrects me every time I forgot something or made mistakes, he did the repo structure and the research.
 
-##License
+## License
 
 MIT-License [LICENSE](LICENSE)

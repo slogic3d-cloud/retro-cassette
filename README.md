@@ -44,15 +44,14 @@ with a battery
 
 ## Bom + Cost
 
-### It cost round about 138$
+### Grant: about $116 (PCB). Total: about $138, the rest I pay myself.
 The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
 BOM: [BOM](BOM.csv)
 
 ## Assembly:
 All parts will come together in a frame made out of wood.
 
-I soldered the MX-Switches on the Board and made the frame.
-
+I will solder the MX switches on the board and build the frame out of wood.
 
 ## Firmware:
 
@@ -69,7 +68,7 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 
 ## What AI did:
-AI wrote me the text to how you flash it and was planning the whole project with me. It corrects me every time I forgot something or made mistakes, he did the repo structure and the research.
+AI wrote me the text to how you flash it and was planning the whole project with me. It corrects me every time I forgot something or made mistakes, it did the repo structure and the research.
 
 ## License
 

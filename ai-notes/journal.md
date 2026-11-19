@@ -126,3 +126,4 @@
 - 19.11.: Grant ausreizen: JST-Verlängerung + MX-Schalter → Grant. Grant-Total $122.93 (< $125 Tier 3).
 - 19.11.: Minimale Eigenkosten: Grant = JLC + MX + Ali-Versand = $123.86; privat: Lautsprecher, Keycaps, JST = 24,97€.
 - 19.11.: Fabricate-Check: JLC-Link war Startseite → auf PCB/gerbers.zip im Repo geändert.
+- 19.11.: User: mit Akku rechnen → BAT1 wieder in BOM als 'Paying myself' ($13.98). Grant bleibt $123.86 (Tier 3). Eigenkosten jetzt ~37,66 €.

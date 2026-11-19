@@ -17,4 +17,5 @@ SHIP-ALI,Shipping,1,6.98,6.98,,AliExpress,Grant,"in USD umgerechnet (EZB-Kurs 20
 JLC,Part,1,116.12,116.12,https://github.com/slogic3d-cloud/retro-cassette/blob/main/PCB/gerbers.zip,JLCPCB,Grant,"in USD umgerechnet (EZB-Kurs 2026-11-16, 1 EUR = 1.1014 USD) (inkl. 11.28 Versand, -8.95 Gutschein); enthaelt alle SMD-Bauteile; Bestellung bei jlcpcb.com mit PCB/gerbers.zip + PCB/production/bom.csv + positions.csv",JLC,PCB + PCBA (5 Stk.; Gerber + bom.csv + positions.csv),'-,'-,JLCPCB (inkl. 11.28 Versand; -8.95 Gutschein),Merchandise 103.10 + Versand 11.28 - Coupon 8.95
 Holzrahmen,Part,1,,,,,Already own,,,,,,,
 Filament,Part,1,,,,,Already own,,,,,,,
+BAT1,Part,1,13.98,0.00,https://de.aliexpress.com/item/1005008755128961.html,AliExpress,Paying myself,"in USD umgerechnet (EZB-Kurs 2026-11-16, 1 EUR = 1.1014 USD); privat gekauft; Polung vor Einstecken messen (J3 Pin1 = +)",BAT1,LiPo-Akku 3.7V 4000mAh 124065 (12x40x65 mm) mit PCM + JST PH 2.0,4000mAh,JST PH 2.0 an J3,AliExpress (Versand in SHIP-ALI enthalten),
 Total,,,,123.86,,,,,,,,,,

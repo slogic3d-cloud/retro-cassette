@@ -46,8 +46,8 @@ It can play music from an SD card with a retro look
 
 ## Bom + Cost
 ### BOM: [BOM](BOM.csv)
-The total cost are about $151, I'll pay $25.
-- Grant: $123,86 for PCB with shifting and MX-Switches and shipping
+The total cost are about $151, I'll pay $28.
+- Grant: $123,86 for PCB with assembly and MX-Switches and shipping
 - Me: about $25 for Speaker, keycaps and cable extension
 
 ## Assembly:
@@ -71,7 +71,7 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 ## What AI did:
 AI wrote me the text to how you flash it and was planning the whole project with me. It corrects me every time I forgot something or made mistakes, it did the repo structure and the research.
-IT did also the most of the firmware becouse of I am to dumb for it (it is my first time).
+It also did the most of the firmware because it is my first time.
 
 ## License
 

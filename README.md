@@ -1,5 +1,5 @@
 ---
-title: "retro-cassette"e
+title: "retro-cassette"
 
 ## A decoration piece with a retro cassette that can play music
 

@@ -12,29 +12,29 @@ It can play music from an SD card with a retro look
 
 ### Features:
 
-Bluetooth-Speaker, so your phone can connect to it
+- Bluetooth-Speaker, so your phone can connect to it
 
-plays MP3s from a microSD-card
+- plays MP3s from a microSD-card
 
-SD card playback & mode switch: work in progress
+- SD card playback & mode switch: work in progress
 
-Stereo with 2 Speakers (2× 3 W)
+- Stereo with 2 Speakers (2× 3 W)
 
-4 mechanical switches like a cassette deck: ⏮ · ⏯ · ⏭ · Mode (Bluetooth/SD)
+- 4 mechanical switches like a cassette deck: ⏮ · ⏯ · ⏭ · Mode (Bluetooth/SD)
 
-Volume via long press on ⏮/⏭
+- Volume via long press on ⏮/⏭
 
-USB-C for power and for flashing
+- USB-C for power and for flashing
 
-with a battery
+- with a battery
 
 
 ## Why did I build it?
 ### Because it looks amazing and I learned:
 
--How to design a PCB
+- How to design a PCB
 
--How the ESP32 works and how to flash it
+- How the ESP32 works and how to flash it
 
 
 ## Pictures
@@ -45,10 +45,10 @@ with a battery
 <img width="1222" height="720" alt="Screenshot 2026-11-15 163617" src="https://github.com/user-attachments/assets/2656f5bf-6a45-4fe5-b1de-9ec049cfcb34" />
 
 ## Bom + Cost
-
-### Grant: about $116 (PCB). Total: about $138, the rest I pay myself.
-The full bill of materials with links and prices is in [BOM.csv](BOM.csv).
-BOM: [BOM](BOM.csv)
+### BOM: [BOM](BOM.csv)
+The total cost are about $151, I'll pay $25.
+- Grant: $123,86 for PCB with shifting and MX-Switches and shipping
+- Me: about $25 for Speaker, keycaps and cable extension
 
 ## Assembly:
 All parts will come together in a frame made out of wood.

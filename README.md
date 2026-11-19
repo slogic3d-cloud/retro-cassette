@@ -16,6 +16,8 @@ Bluetooth-Speaker, so your phone can connect to it
 
 plays MP3s from a microSD-card
 
+SD card playback & mode switch: work in progress
+
 Stereo with 2 Speakers (2× 3 W)
 
 4 mechanical switches like a cassette deck: ⏮ · ⏯ · ⏭ · Mode (Bluetooth/SD)

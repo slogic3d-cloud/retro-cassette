@@ -125,3 +125,4 @@
 - 19.11.: ZIP 'Retro-Kassette' geprüft: PCB/CAD identisch mit Repo; lokale Firmware war alte Version mit Lücken → Repo-Version behalten. Firmware v1.1: Lautstärke per langem Druck ⏮/⏭ (get/set_volume 0–127), SD + Modus als WIP-Kommentar. Kompiliert SUCCESS. Backups/ret701B nicht übernommen.
 - 19.11.: Grant ausreizen: JST-Verlängerung + MX-Schalter → Grant. Grant-Total $122.93 (< $125 Tier 3).
 - 19.11.: Minimale Eigenkosten: Grant = JLC + MX + Ali-Versand = $123.86; privat: Lautsprecher, Keycaps, JST = 24,97€.
+- 19.11.: Fabricate-Check: JLC-Link war Startseite → auf PCB/gerbers.zip im Repo geändert.

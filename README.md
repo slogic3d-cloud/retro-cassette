@@ -6,17 +6,15 @@
 
 
 
-## What it does? 
+## What does it do?
 
-It can play music from an SD card with a retro look
+It can play music from an SD card with a retro look.
 
 ### Features:
 
 - Bluetooth-Speaker, so your phone can connect to it
 
 - plays MP3s from a microSD-card
-
-- SD card playback & mode switch: work in progress
 
 - Stereo with 2 Speakers (2× 3 W)
 
@@ -26,7 +24,7 @@ It can play music from an SD card with a retro look
 
 - USB-C for power and for flashing
 
-- with a battery
+- with a 4000mAh battery, charges via USB-C
 
 
 ## Why did I build it?
@@ -45,10 +43,10 @@ It can play music from an SD card with a retro look
 <img width="1222" height="720" alt="Screenshot 2026-11-15 163617" src="https://github.com/user-attachments/assets/2656f5bf-6a45-4fe5-b1de-9ec049cfcb34" />
 
 ## Bom + Cost
-### BOM: [BOM](BOM.csv)
-The total cost are about $151, I'll pay $28.
-- Grant: $123,86 for PCB with assembly and MX-Switches and shipping
-- Me: about $25 for Speaker, keycaps and cable extension
+BOM: [BOM](BOM.csv)
+The total cost is about $165, I'll pay about $41.
+- Grant: $123.86 for PCB with assembly and MX-Switches and shipping
+- Me: about $41 for speakers, keycaps, cable extension and battery
 
 ## Assembly:
 All parts will come together in a frame made out of wood.
@@ -57,7 +55,7 @@ I will solder the MX switches on the board and build the frame out of wood.
 
 ## Firmware:
 
-### [Firmware](firmware/)
+[Firmware](firmware/)
 
 ### How to flash it:
 
@@ -70,8 +68,22 @@ To flash the firmware, first open the firmware/ folder in VS Code by selecting F
 
 
 ## What AI did:
-AI wrote me the text to how you flash it and was planning the whole project with me. It corrects me every time I forgot something or made mistakes, it did the repo structure and the research.
-It also did the most of the firmware because it is my first time.
+
+I used AI (Claude) as a mentor during this project. It helped me with:
+
+- **Planning:** planning the whole project with me and researching the parts
+- **PCB review:** checking my schematic and PCB for mistakes (I designed and routed everything by hand)
+- **BOM:** keeping the BOM.csv up to date and converting the prices to USD
+- **Firmware:** writing most of the firmware, because it is my first time programming an ESP32
+- **Docs:** writing the PINOUT.md and the text on how to flash the firmware
+- **Repo:** setting up the folder structure and correcting me every time I forgot something or made a mistake
+
+## What I did:
+
+- Designed the schematic in KiCad
+- Placed and routed the PCB by hand (with help from my brother)
+- Designed the frame in Fusion 360
+- Wrote this README and the journal
 
 ## License
 

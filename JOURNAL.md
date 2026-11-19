@@ -98,3 +98,13 @@ I installed the things for an ESP32 on my PC.
 ![](https://fabricate.hackclub-assets.com/22063f6caf0432523f005ca314b40f73164c47750d6a357ff8a9775eb235fad7/image-png/Screenshot%202026-11-16%20161229.png)
 
 **Total time spent: 2h**
+
+November 19, 2026: Firmware and Finish
+Today i finished the projekt and started the firmware which i finished with ai.
+It wasn't much to do but I'm to dumb for it.
+With ai I correct if I have some mistakes on Github
+
+<img width="838" height="659" alt="Screenshot 2026-11-19 173931" src="https://github.com/user-attachments/assets/4cc5c28b-b88d-40d4-bc65-1747646adacc" />
+<img width="691" height="120" alt="Screenshot 2026-11-19 173943" src="https://github.com/user-attachments/assets/3a251a0e-acd0-4f9e-b5d9-fec58135486b" />
+
+**Total time spent: 1h 48m**

@@ -35,6 +35,29 @@ void setup() {
   Serial.println("Retro Cassette gestartet - per Bluetooth verbinden");
 }
 
+// Wie lange eine Taste gedrueckt sein muss, damit es "lang" ist (Millisekunden)
+const unsigned long LANG_DRUECKEN = 600;
+// Lautstaerke-Schritt pro Wiederholung (0 = leise, 127 = laut)
+const int LAUTSTAERKE_SCHRITT = 8;
+
+// Wartet, bis die Taste losgelassen wird.
+// Kurz gedrueckt  -> gibt true zurueck (dann Song wechseln)
+// Lang gedrueckt  -> aendert waehrenddessen die Lautstaerke, gibt false zurueck
+bool kurzOderLautstaerke(int taste, int richtung) {
+  unsigned long start = millis();
+  bool warLang = false;
+  while (digitalRead(taste) == LOW) {
+    if (millis() - start > LANG_DRUECKEN) {
+      warLang = true;
+      int lautstaerke = a2dp_sink.get_volume() + richtung * LAUTSTAERKE_SCHRITT;
+      a2dp_sink.set_volume(constrain(lautstaerke, 0, 127));
+      delay(150);
+    }
+    delay(10);
+  }
+  return !warLang;
+}
+
 void loop() {
   // ⏯ Play/Pause: Laeuft Musik, dann Pause, sonst Play
   if (digitalRead(TASTE_PLAY) == LOW) {
@@ -46,17 +69,23 @@ void loop() {
     delay(300);
   }
 
-  // ⏭ naechster Song
+  // ⏭ kurz: naechster Song, lang: lauter
   if (digitalRead(TASTE_WEITER) == LOW) {
-    a2dp_sink.next();
-    delay(300);
+    if (kurzOderLautstaerke(TASTE_WEITER, +1)) {
+      a2dp_sink.next();
+    }
+    delay(50);
   }
 
-  // ⏮ vorheriger Song
+  // ⏮ kurz: vorheriger Song, lang: leiser
   if (digitalRead(TASTE_ZURUECK) == LOW) {
-    a2dp_sink.previous();
-    delay(300);
+    if (kurzOderLautstaerke(TASTE_ZURUECK, -1)) {
+      a2dp_sink.previous();
+    }
+    delay(50);
   }
 
-  // TODO: Modus-Taste (Bluetooth <-> SD-Karte), Lautstaerke per langem Druck, MP3 von SD
+  // Work in progress (sobald die Platine da ist):
+  // - Modus-Taste: Umschalten Bluetooth <-> MP3 von der SD-Karte
+  // - MP3-Wiedergabe von der SD-Karte (SPI: CS 5, SCK 18, MISO 19, MOSI 23)
 }

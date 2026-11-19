@@ -122,3 +122,4 @@
 - 16.11.: BOM in USD umgerechnet (EZB 16.11.2026: 1 EUR = 1,1014 USD). Grant-Total $137.57. JST/MX Funding → Paying myself. → Tier 2 nötig (> $125).
 - 16.11.: Keycaps + Lautsprecher → Paying myself. Grant nur JLC $116.12 → Tier 3.
 - 19.11.: Firmware v1 (BT-A2DP + I2S 26/25/22 + Tasten Play/Next/Prev) ins Repo firmware/ (platformio.ini + src/main.cpp). User hat Tasten/Pins ausgefüllt, Rest + Fertigstellung von Claude (→ AI Disclosure!). Kompiliert: SUCCESS.
+- 19.11.: ZIP 'Retro-Kassette' geprüft: PCB/CAD identisch mit Repo; lokale Firmware war alte Version mit Lücken → Repo-Version behalten. Firmware v1.1: Lautstärke per langem Druck ⏮/⏭ (get/set_volume 0–127), SD + Modus als WIP-Kommentar. Kompiliert SUCCESS. Backups/ret701B nicht übernommen.

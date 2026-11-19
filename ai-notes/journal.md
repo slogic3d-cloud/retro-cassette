@@ -127,3 +127,8 @@
 - 19.11.: Minimale Eigenkosten: Grant = JLC + MX + Ali-Versand = $123.86; privat: Lautsprecher, Keycaps, JST = 24,97€.
 - 19.11.: Fabricate-Check: JLC-Link war Startseite → auf PCB/gerbers.zip im Repo geändert.
 - 19.11.: User: mit Akku rechnen → BAT1 wieder in BOM als 'Paying myself' ($13.98). Grant bleibt $123.86 (Tier 3). Eigenkosten jetzt ~37,66 €.
+
+## 19.11.2026: Eingereicht
+- JOURNAL.md war per Browser-Übersetzung auf Deutsch kopiert -> Frontmatter kaputt; User hat englische Version + `---` wiederhergestellt.
+- README korrigiert (Kosten $165 / $41 / $123.86, KI-Abschnitt + "What I did" auf Wunsch von mir formuliert).
+- User hat bei Fabricate eingereicht (Tier 3, $123.86). Nächster Schritt: Review abwarten, dann bestellen (JLC/Amazon/Ali), Holzrahmen, Montage, Firmware SD/Modus.

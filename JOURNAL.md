@@ -3,7 +3,7 @@ title: "retro-cassette"
 github: "https://github.com/slogic3d-cloud/retro-cassette"
 description: "a deko thing with an retro cassette which can play musik"
 created_at: "2026-11-08"
-total_time: "16h 36m"
+total_time: "18h 24m"
 ---
 
 # November 8, 2026: Starting with research and schematic

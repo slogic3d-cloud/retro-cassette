@@ -121,3 +121,4 @@
 - 16.11.: docs/PINOUT.md angelegt (aus geprüfter Netzliste): Tasten 32/33/34/35, I2S 26/25/22, SD 5/18/19/23, ADC 36, PGOOD 39, J4=rechts(U6), J5=links(U5).
 - 16.11.: BOM in USD umgerechnet (EZB 16.11.2026: 1 EUR = 1,1014 USD). Grant-Total $137.57. JST/MX Funding → Paying myself. → Tier 2 nötig (> $125).
 - 16.11.: Keycaps + Lautsprecher → Paying myself. Grant nur JLC $116.12 → Tier 3.
+- 19.11.: Firmware v1 (BT-A2DP + I2S 26/25/22 + Tasten Play/Next/Prev) ins Repo firmware/ (platformio.ini + src/main.cpp). User hat Tasten/Pins ausgefüllt, Rest + Fertigstellung von Claude (→ AI Disclosure!). Kompiliert: SUCCESS.
